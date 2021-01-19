@@ -3,6 +3,6 @@
     and convert to cemtimeters (cm)  
 '''
 
-n = int(input("Enter a number: "))
+n = float(input("Enter a number: "))
 
 print(f"This is the result: {n*100}")

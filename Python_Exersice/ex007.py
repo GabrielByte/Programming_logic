@@ -3,7 +3,7 @@
     and calculate his/her mean. 
 '''
 
-x = int(input("Enter your first grade: "))
-y = int(input("Enter yout second grade: "))
+x = float(input("Enter your first grade: "))
+y = float(input("Enter yout second grade: "))
 
-print(f"This is you mean: {(x+y)/2}")
+print(f"This is you mean: {(x+y)/2:.2f}")
