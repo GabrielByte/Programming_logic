@@ -1,9 +1,14 @@
 '''
     Make a program that randomizes one of
-    .four students to clear the blackboard
+    four students to clear the blackboard
 '''
 from random import choice
 
-name = ["Gabriel", "Buh", "Jukes", "Jovi"]
+name0 = str(input("Enter the student's name: ")).title()
+name1 = str(input("Enter the student's name: ")).title()
+name2 = str(input("Enter the student's name: ")).title()
+name3 = str(input("Enter the student's name: ")).title()
 
-print(f"This is the one whom will help the teacher out {choice(name)}")
+list = [name0, name1, name2, name3]
+
+print(f"This is the one whom will help the teacher out {choice(list)}")

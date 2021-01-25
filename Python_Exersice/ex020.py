@@ -3,8 +3,12 @@
 '''
 from random import shuffle
 
-names = "Gabriel Buh Jukes Jovi".split()
+name0 = str(input("Enter the student's name: "))
+name1 = str(input("Enter the student's name: "))
+name2 = str(input("Enter the student's name: "))
+name3 = str(input("Enter the student's name: "))
 
-shuffle(names)
+list = [name0, name1, name2, name3]
+shuffle(list)
 
-print(f"This will be the order {names}")
+print(f"This will be the order {list}")
